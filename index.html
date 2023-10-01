@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Protfolio</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
         <img src="pictures\istockphoto-1248727282-170x170.jpg" width="5%" alt="icon">
         <ul>
             <li><a class="active" href="#">Home</a></li> 
-            <li><a href="#">About</a></li>    
+            <li><a href="#about_Me">About</a></li>    
             <li><a href="#">Work</a></li>   
-            <li><a href="#">Contact</a></li>   
+            <li><a href="#contact">Contact</a></li>   
 
             </ul>
 
@@ -30,12 +31,12 @@
         </section>
     </header>
     <hr>
-    <section class="about">
+    <section class="about" id="about_Me">
         <img src="pictures\87.jpg" width="30%" alt="">
         <div id="bck">
 
         </div>
-        <div class="heading">
+        <div class="heading" >
             <h1>About Me</h1>
             <p>Final year B.E Computer Science student with excellent academic record and keen interest and practical exposure in the field of web applications development</p>
 
@@ -44,5 +45,41 @@
         
     </section>
     <hr>
+    <section class="work">
+
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <form action="post">
+            <input type="text " placeholder="Enter Name" required><br>
+            <input type="email" placeholder="Enter Email" required><br>
+            <input type="text" placeholder="Enter Subject"><br>
+            <input type="textarea" placeholder="Enter Message"><br>
+            <input type="button" name="btn" id="btn" value="Send"><br><br>
+        </form>
+
+    </section>
+
+    <footer>
+        <br>
+        <div class="f_icon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+        <div class="nav_link">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Works</a></li>
+            </ul>
+        </div>
+        
+        <p> Copyright@2023 <br>Preeti Jigajinni </p>
+    </footer>
 </body>
 </html>

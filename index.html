@@ -9,13 +9,13 @@
 </head>
 <body>
     <header>
-        <nav class="navigation">
+        <nav class="navigation" id="home">
         <label>Preetss</label>
         <img src="pictures\istockphoto-1248727282-170x170.jpg" width="5%" alt="icon">
         <ul>
-            <li><a class="active" href="#">Home</a></li> 
+            <li><a class="active" href="#home">Home</a></li> 
             <li><a href="#about_Me">About</a></li>    
-            <li><a href="#">Work</a></li>   
+            <li><a href="#work">Work</a></li>   
             <li><a href="#contact">Contact</a></li>   
 
             </ul>
@@ -41,11 +41,64 @@
             <p>Final year B.E Computer Science student with excellent academic record and keen interest and practical exposure in the field of web applications development</p>
 
         </div>
+        <div class="bio">
+            <ul class="self">
+                <li>From       : Hubli ,Karnataka</li>
+                <li>Age        : 21</li>
+                <li>Gender     : Female</li>
+                <li>Lives : Hubli</li>
+            </ul>
+            <br>
+            
+            
+            <ul class="education">
+                <label id="edu">Education</label>
+                
+                <li>BE(CSE) @Jcet Hubli <span>CGPA 8.3/10</span></li>
+                <li>12th @Kendriya Vidhayala Hubli <span>91%</span></li>
+                <li>10th @Kendriya Vidhayala Hubli <span>85%</span></li>
+            </ul>
+        </div>
+        <div id="btn1">
+            <button type="button" id="bttn1"><a href="">Download Resume</a></button><br>
+        </div>
+        
         
         
     </section>
     <hr>
-    <section class="work">
+    <section class="work" id="work">
+        <h1>Projects</h1>
+        <div class="projects">
+            <div class="prj1">
+                <h2>Project 1- Library Management System</h2>
+                <div class="img1">
+                    <img src="pictures\Screenshot_20230116_142403.png" width="50%"  alt="">
+                </div>
+            
+                <p> Library Management Project is based on Database <br>This is build on C# and Sqlilite.</p>
+            </div>
+
+            <div class="prj2">
+                <h2>Project 2- 3D Giant Wheel</h2>
+                <div class="img2">
+                    <img src="pictures\Screenshot 2023-07-09 114511.png" width="30%"  alt="">
+                </div>
+                <p>This project is build using openGL Computer Graphics software ,<br>this creates and virtual 3d ride for user utilized opengL library functionalites. </p>
+            </div>
+
+
+            <div class="prj3">
+                <h2>Project 3- Android BMI App</h2>
+                <div class="img3">
+                    <img src="pictures\Screenshot 2023-07-09 115405.png" width="30%"  alt="">
+                </div>
+                <p>This project is build using openGL Computer Graphics software ,<br>this creates and virtual 3d ride for user utilized opengL library functionalites. </p>
+            </div>
+
+        
+        </div>
+        
 
     </section>
     <section class="contact" id="contact">
